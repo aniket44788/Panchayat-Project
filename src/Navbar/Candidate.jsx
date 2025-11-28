@@ -145,7 +145,7 @@ function Candidate() {
                             transition={{ duration: 0.5, delay: 0.4 }}
                             className="mb-6 sm:mb-8 lg:mb-10"
                         >
-                            <div className="bg-gradient-to-br from-white via-green-50 to-orange-50 border-l-4 border-green-600 rounded-2xl p-6 sm:p-8 lg:p-10 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                            <div className="bg-gradient-to-br from-white via-green-50 to-orange-50  rounded-2xl p-6 sm:p-8 lg:p-10 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-green-800 mb-6 flex items-center gap-3">
                                     <span className="text-3xl sm:text-4xl">👤</span>
                                     संक्षिप्त परिचय

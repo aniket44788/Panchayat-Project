@@ -21,7 +21,7 @@ function TeamSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mb-16">
                     {/* MONI MAURYA CARD */}
                     <div className="group">
-                        <div className="bg-white border-4 border-orange-500 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+                        <div className="bg-white border-2 border-orange-500 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                             {/* IMAGE CONTAINER */}
 
 
@@ -119,7 +119,7 @@ function TeamSection() {
 
                     {/* ADITYA MAURYA CARD */}
                     <div className="group">
-                        <div className="bg-white border-4 border-green-600 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+                        <div className="bg-white border-2 border-green-600 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                             {/* IMAGE CONTAINER */}
 
 
