@@ -1,15 +1,13 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import QRCode from 'qrcode'; // npm install qrcode
-import moni from "../assets/moni.jpeg"
-import aditya from "../assets/aditya.jpg"
 import TeamSection from './TeamSection';
 function Home() {
     const [qrValue, setQrValue] = useState('');
     const qrCanvasRef = useRef(null);
 
     useEffect(() => {
-        const url = window.location.origin + '/survey';
+        const url = window.location.origin + 'https://panchayat-project.vercel.app/survey';
         setQrValue(url);
 
         if (qrCanvasRef.current) {
@@ -47,7 +45,6 @@ function Home() {
                 <div className="max-w-2xl mx-auto text-center">
                     <h2 className="text-3xl font-bold text-blue-900 mb-4">📱 सर्वे शुरू करें</h2>
                     <p className="text-lg text-gray-700 mb-8">QR Code स्कैन करें या नीचे बटन दबाएं</p>
-
                     <div className="flex justify-center mb-8">
                         <div className="bg-white p-6 rounded-lg border-4 border-orange-500 shadow-lg">
                             <canvas ref={qrCanvasRef}></canvas>
