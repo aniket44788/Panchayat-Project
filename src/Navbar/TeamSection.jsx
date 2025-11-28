@@ -1,6 +1,7 @@
 
 import moni from "../assets/moni.jpeg";
 import aditya from "../assets/aditya.jpg"
+// import aditya from "../assets/user.png"
 
 function TeamSection() {
     return (
